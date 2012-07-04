@@ -114,7 +114,7 @@ class Category_Header_Images {
 	 * @author Ryan Hellyer <ryan@pixopoint.com>
 	 * @since 1.0
 	 */
-	function header_image_filter( $url ) {
+	public function header_image_filter( $url ) {
 
 		// Bail out now if not in category
 		if ( ! is_category() )

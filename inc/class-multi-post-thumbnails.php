@@ -75,7 +75,7 @@ class MultiPostThumbnails {
 
 		add_action('add_meta_boxes', array($this, 'add_metabox'));
 		add_filter('attachment_fields_to_edit', array($this, 'add_attachment_field'), 20, 2);
-		add_action('admin_init', array($this, 'enqueue_admin_scripts'));
+		add_action( 'admin_init', array( $this, 'enqueue_admin_scripts' ) );
 		add_action("wp_ajax_set-{$this->post_type}-{$this->id}-thumbnail", array($this, 'set_thumbnail'));
 		add_action('delete_attachment', array($this, 'action_delete_attachment'));
 	}
@@ -130,14 +130,14 @@ class MultiPostThumbnails {
 	}
 
 	/**
-	 * Enqueue admin JavaScripts
+	 * Enqueue admin scripts
 	 *
-	 * @return void
+	 * @author Ryan Hellyer <ryan@metronet.no>
 	 */
 	public function enqueue_admin_scripts() {
 
 		// Bail out now if not on edit post/page page
-		if ( empty( $_GET['post'] ) )
+		if ( !isset( $_GET['post'] ) && !isset( $_GET['post_id'] ) )
 			return;
 
 		// Enqueue the script
@@ -157,7 +157,7 @@ class MultiPostThumbnails {
 	 * @global object $wpdb
 	 * @param int $post_id
 	 */
-	public function action_delete_attachment($post_id) {
+	public function action_delete_attachment( $post_id ) {
 		global $wpdb;
 		$meta_key = "{$this->post_type}_{$this->id}_thumbnail_id";
 		$wpdb->query( $wpdb->prepare( "DELETE FROM $wpdb->postmeta WHERE meta_key = '%s' AND meta_value = %d", $meta_key, $post_id ));

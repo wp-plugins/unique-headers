@@ -45,8 +45,14 @@ class Post_Header_Images {
 		// Grab current post ID
 		$post_ID = $post->ID;
 
+		// Pick post type
+		if ( is_single() )
+			$slug = 'post';
+		else
+			$slug = 'page';
+
 		// Grab the post thumbnail ID
-		$post_thumbnail_id = MultiPostThumbnails::get_post_thumbnail_id( 'post', 'custom-header', $post_ID );
+		$post_thumbnail_id = MultiPostThumbnails::get_post_thumbnail_id( $slug, 'custom-header', $post_ID );
 
 		// If no post thumbnail ID set, then use default
 		if ( '' == $post_thumbnail_id )
