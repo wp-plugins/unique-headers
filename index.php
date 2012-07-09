@@ -4,7 +4,7 @@ Plugin Name: Unique Headers
 Plugin URI: http://pixopoint.com/
 Description: Unique Headers
 Version: 1.0.1
-Author: Ryan Hellyer / Metronet
+Author: Ryan Hellyer
 Author URI: http://pixopoint.com/
 
 ------------------------------------------------------------------------
