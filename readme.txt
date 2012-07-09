@@ -1,6 +1,6 @@
 === Unique Headers ===
 Contributors: ryanhellyer, metronet
-Tags: header, metronet, pixopoint, headers, image, header-image, header-images, taxonomy, posts, pages, taxonomies, post, page, unique
+Tags: header, pixopoint, headers, image, header-image, header-images, taxonomy, posts, pages, taxonomies, post, page, unique
 Donate link: http://pixopoint.com/donate/
 Requires at least: 3.4
 Stable tag: 1.0.1
