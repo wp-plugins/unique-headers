@@ -22,7 +22,6 @@ class Category_Header_Images {
 		add_action( 'init', array( $this, 'init'     ) );
 	}
 
-	
 	/**
 	 * Print styles to admin page
 	 *
@@ -124,7 +123,11 @@ class Category_Header_Images {
 		$tag_ID = get_query_var( 'cat' );
 
 		// Grab stored taxonomy header
-		$url = get_term_meta( $tag_ID, 'taxonomy-header-image', true );
+		$new_url = get_term_meta( $tag_ID, 'taxonomy-header-image', true );
+
+		// If no URL set, then bail out now
+		if ( '' == $new_url )
+			return $url;
 
 		return $url;
 	}

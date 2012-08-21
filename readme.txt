@@ -1,9 +1,9 @@
 === Unique Headers ===
 Contributors: ryanhellyer, metronet
-Tags: header, pixopoint, headers, image, header-image, header-images, taxonomy, posts, pages, taxonomies, post, page, unique
+Tags: header, metronet, pixopoint, headers, image, header-image, header-images, taxonomy, posts, pages, taxonomies, post, page, unique
 Donate link: http://pixopoint.com/donate/
 Requires at least: 3.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 
 Adds the ability to use unique custom headers on individual pages, posts or categories.
@@ -62,6 +62,7 @@ No, I'm too busy. Having said that, if you want to pay me a small fortune then I
 
 == Changelog ==
 
+Version 1.0.2: Bug fix to allow default header to display when no category specified<br />
 Version 1.0.1: Bug fixes for post/page thumbnails<br />
 Version 1.0: Initial release<br />
 
