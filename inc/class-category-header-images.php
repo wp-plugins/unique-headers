@@ -126,8 +126,8 @@ class Category_Header_Images {
 		$new_url = get_term_meta( $tag_ID, 'taxonomy-header-image', true );
 
 		// If no URL set, then bail out now
-		if ( '' == $new_url )
-			return $url;
+		if ( '' != $new_url )
+			$url = $new_url;
 
 		return $url;
 	}
