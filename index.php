@@ -3,7 +3,7 @@
 Plugin Name: Unique Headers
 Plugin URI: http://geek.ryanhellyer.net/
 Description: Unique Headers
-Version: 1.0.4
+Version: 1.1
 Author: Ryan Hellyer / Metronet
 Author URI: http://geek.ryanhellyer.net/
 
@@ -43,7 +43,7 @@ if ( !defined( 'ABSPATH' ) )
  * @since 1.0
  * @author Ryan Hellyer <ryanhellyer@gmail.com>
  */
-require( 'inc/class-category-header-images.php' );
+require( 'inc/class-taxonomy-header-images.php' );
 require( 'inc/class-post-header-images.php' );
 require( 'inc/class-multi-post-thumbnails.php' );
 
@@ -63,7 +63,7 @@ define( 'UNIQUEHEADERS_OPTION', 'hyper-headers' );
  * @since 1.0
  * @author Ryan Hellyer <ryanhellyer@gmail.com>
  */
-new Category_Header_Images();
+new Taxonomy_Header_Images();
 new Post_Header_Images();
 new MultiPostThumbnails(
 	array(
