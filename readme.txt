@@ -73,6 +73,6 @@ Version 1.0: Initial release<br />
 = Credits =
 
 Thanks to the following for help with the development of this plugin:<br />
-* <a href="http://camaya.net/">Jakob Schröter</a> - Assistance with implementing support for tags<br />
+* <a href="http://onmytodd.org">Todd</a> - Assistance with implementing support for tags<br />
 * <a href="http://metronet.no/">Metronet</a> - Plugin sponsor<br />
 * <a href="http://www.dss.dep.no/">Norwegian Government Administration Services (G.A.S.)</a> - Plugin sponsor<br />
