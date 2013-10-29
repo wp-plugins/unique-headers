@@ -13,8 +13,6 @@ Adds the ability to use unique custom headers on individual pages, posts or cate
 The <a href="http://geek.ryanhellyer.net/products/unique-headers/">Unique Headers Plugin</a> adds the ability to use unique custom headers on
 individual pages, posts or categories. This plugin makes use of the excellent <a href="http://wordpress.org/extend/plugins/taxonomy-metadata/">Taxonomy Metadata plugin</a> for handling header images for categories and tags.
 
-The creation of this plugin was sponsored by the <a href="http://www.dss.dep.no/">Norwegian Government Administration Services (G.A.S.)</a> and <a href="http://metronet.no/">Metronet</a>. Coding assistance was provided from <a href="http://camaya.net/">Jakob Schröter</a>.
-
 
 == Installation ==
 
@@ -76,3 +74,4 @@ Thanks to the following for help with the development of this plugin:<br />
 * <a href="http://onmytodd.org">Todd</a> - Assistance with implementing support for tags<br />
 * <a href="http://metronet.no/">Metronet</a> - Plugin sponsor<br />
 * <a href="http://www.dss.dep.no/">Norwegian Government Administration Services (G.A.S.)</a> - Plugin sponsor<br />
+
