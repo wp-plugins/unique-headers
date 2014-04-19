@@ -1,9 +1,9 @@
 === Unique Headers ===
-Contributors: ryanhellyer, metronet
-Tags: header, metronet, headers, image, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique
+Contributors: ryanhellyer
+Tags: header, headers, image, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique
 Donate link: http://geek.ryanhellyer.net/donate/
-Requires at least: 3.4
-Stable tag: 1.1
+Requires at least: 3.9
+Stable tag: 1.2
 
 
 Adds the ability to use unique custom headers on individual pages, posts or categories or tags.
@@ -25,7 +25,7 @@ After you've downloaded and extracted the files:
 
 Now you will see sections for changing your custom headers on the posts, pages and category listings.
 
-Visit the <a href="http://pixopoint.com/products/unique-headers/">Unique Headers Plugin</a> for more information.
+Visit the <a href="http://geek.ryanhellyer.net/products/unique-headers/">Unique Headers Plugin</a> for more information.
 
 
 == Frequently Asked Questions ==
@@ -35,6 +35,10 @@ Visit the <a href="http://pixopoint.com/products/unique-headers/">Unique Headers
 You need to install the <a href="http://wordpress.org/extend/plugins/taxonomy-metadata/">Taxonomy Metadata plugin</a>. WordPress does not support
 the taxonomy meta data which this plugin needs to use to store the custom header image URL. As soon as you install that plugin, the category/tag image
 functionality should begin working.
+
+
+= I set an image, but now I can't change it :/ =
+This is caused by a bug in a code library we've used. To work around this, you need to remove the image before adding a new one.
 
 
 = Where's the settings page? =
@@ -60,6 +64,7 @@ No, I'm too busy. Having said that, if you are willing to pay me a small fortune
 
 == Changelog ==
 
+Version 1.2: Converted to use the class from the Multiple Featured Images plugin<br />
 Version 1.1: Added support for tags <br />
 Version 1.0.4: Added support for displaying a category specific image on the single post pages<br />
 Version 1.0.3: Correction for $new_url for categories<br />
@@ -72,6 +77,4 @@ Version 1.0: Initial release<br />
 
 Thanks to the following for help with the development of this plugin:<br />
 * <a href="http://onmytodd.org">Todd</a> - Assistance with implementing support for tags<br />
-* <a href="http://metronet.no/">Metronet</a> - Plugin sponsor<br />
-* <a href="http://www.dss.dep.no/">Norwegian Government Administration Services (G.A.S.)</a> - Plugin sponsor<br />
-
+* <a href="http://www.dss.dep.no/">Norwegian Government Administration Services (G.A.S.)</a><br />

@@ -3,7 +3,7 @@
 Plugin Name: Unique Headers
 Plugin URI: http://geek.ryanhellyer.net/
 Description: Unique Headers
-Version: 1.1
+Version: 1.2
 Author: Ryan Hellyer / Metronet
 Author URI: http://geek.ryanhellyer.net/
 
@@ -43,9 +43,9 @@ if ( !defined( 'ABSPATH' ) )
  * @since 1.0
  * @author Ryan Hellyer <ryanhellyer@gmail.com>
  */
-require( 'inc/class-taxonomy-header-images.php' );
-require( 'inc/class-post-header-images.php' );
-require( 'inc/class-multi-post-thumbnails.php' );
+require( 'inc/class-uh-taxonomy-header-images.php' );
+require( 'inc/class-uh-post-header-images.php' );
+require( 'inc/class-kd-multiple-featured-images.php' );
 
 /**
  * Define constants
@@ -55,7 +55,6 @@ require( 'inc/class-multi-post-thumbnails.php' );
  */
 define( 'UNIQUEHEADERS_DIR',     dirname( __FILE__ ) . '/' ); // Plugin folder DIR
 define( 'UNIQUEHEADERS_URL',     WP_PLUGIN_URL . '/' . basename( UNIQUEHEADERS_DIR )  . '' ); // Plugin folder URL
-define( 'UNIQUEHEADERS_OPTION', 'hyper-headers' );
 
 /**
  * Instantiate classes
@@ -63,19 +62,18 @@ define( 'UNIQUEHEADERS_OPTION', 'hyper-headers' );
  * @since 1.0
  * @author Ryan Hellyer <ryanhellyer@gmail.com>
  */
-new Taxonomy_Header_Images();
-new Post_Header_Images();
-new MultiPostThumbnails(
-	array(
-		'label'     => __( 'Custom Header', 'unique_headers' ),
-		'id'        => 'custom-header',
-		'post_type' => 'post'
+new UH_Taxonomy_Header_Images();
+new UH_Post_Header_Images();
+$args = array(
+	'id' => 'custom-header',
+	'post_type' => 'post',      // Set this to post or page
+	'labels' => array(
+		'name'      => __( 'Custom header', 'unique_headers' ),
+		'set'       => __( 'Set custom header', 'unique_headers' ),
+		'remove'    => __( 'Remove custom header', 'unique_headers' ),
+		'use'       => __( 'Use custom header', 'unique_headers' ),
 	)
 );
-new MultiPostThumbnails(
-	array(
-		'label'     => __( 'Custom Header', 'unique_headers' ),
-		'id'        => 'custom-header',
-		'post_type' => 'page'
-	)
-);
+new kdMultipleFeaturedImages( $args );
+$args['post_type'] = 'page';
+new kdMultipleFeaturedImages( $args );
