@@ -3,8 +3,8 @@
 Plugin Name: Unique Headers
 Plugin URI: http://geek.ryanhellyer.net/
 Description: Unique Headers
-Version: 1.2
-Author: Ryan Hellyer / Metronet
+Version: 1.2.1
+Author: Ryan Hellyer
 Author URI: http://geek.ryanhellyer.net/
 
 ------------------------------------------------------------------------
