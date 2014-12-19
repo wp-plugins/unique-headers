@@ -1,7 +1,7 @@
 === Unique Headers ===
 Contributors: ryanhellyer
 Tags: custom-header, header, headers, image, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique, custom
-Donate link: http://geek.ryanhellyer.net/donate/
+Donate link: https://geek.hellyer.kiwi/donate/
 Requires at least: 4.1
 Stable tag: 1.3.7
 
@@ -11,7 +11,7 @@ Adds the ability to use unique custom header images on individual pages, posts o
 == Description ==
 
 = Features =
-The <a href="http://geek.ryanhellyer.net/products/unique-headers/">Unique Headers Plugin</a> adds a custom header image box to the post/page edit screen. You can use this to upload a unique header image for that post, or use another image from your WordPress media library. When you view that page on the front-end of your site, the default header image for your site will be replaced by the unique header you selected.
+The <a href="https://geek.hellyer.kiwi/products/unique-headers/">Unique Headers Plugin</a> adds a custom header image box to the post/page edit screen. You can use this to upload a unique header image for that post, or use another image from your WordPress media library. When you view that page on the front-end of your site, the default header image for your site will be replaced by the unique header you selected.
 
 To use this functionality with categories or tags, you will also need to install the excellent <a href="http://wordpress.org/extend/plugins/taxonomy-metadata/">Taxonomy Metadata plugin</a>.
 
@@ -34,7 +34,7 @@ After you've downloaded and extracted the files:
 
 Now you will see a new custom header image uploader whilst editing your site.
 
-Visit the <a href="http://geek.ryanhellyer.net/products/unique-headers/">Unique Headers Plugin</a> for more information.
+Visit the <a href="https://geek.hellyer.kiwi/products/unique-headers/">Unique Headers Plugin</a> for more information.
 
 
 == Frequently Asked Questions ==
@@ -102,7 +102,7 @@ There isn't one.
 
 = Other plugins work out the width and height of the header and serve the correct sized header. Why doesn't your plugin do that? =
 
-I prefer to allow you to set the width and height yourself by opening a correct sized image. This allows you to provide over-resolution images to cater for "retina screen" and zoomed in users. Plus, it allows you to control the compression and image quality yourself. Neither route is better in my opinion. If require this functionality, please let me know though, as if most people prefer the other route, then I may change how the plugin works. I suspect most people won't care either way though.
+I prefer to allow you to set the width and height yourself by opening a correct sized image. This allows you to provide over-resolution images to cater for "retina screen" and zoomed in users. Plus, it allows you to control the compression and image quality yourself. Neither route is better in my opinion. If you require this functionality, please let me know though, as if most people prefer the other route, then I may change how the plugin works. I suspect most people won't care either way though.
 
 
 = Does it work in older versions of WordPress? =
@@ -112,7 +112,7 @@ Probably, but I only actively support the latest version of WordPress. Support f
 
 = I need custom functionality. Can we pay you to build it for us? =
 
-No, I'm too busy. Having said that, if you are willing to pay me a small fortune then I could <a href="http://geek.ryanhellyer.net/contact/">probably be persuaded</a>. I'm also open to suggestions for improvements, so feel free to send me ideas and if you are lucky, it may be added for free :)
+No, I'm too busy. Having said that, if you are willing to pay me a small fortune then I could <a href="https://ryan.hellyer.kiwi/contact/">probably be persuaded</a>. I'm also open to suggestions for improvements, so feel free to send me ideas and if you are lucky, it may be added for free :)
 
 
 
