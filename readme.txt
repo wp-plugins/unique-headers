@@ -142,6 +142,7 @@ Version 1.0: Initial release<br />
 Thanks to the following for help with the development of this plugin:<br />
 * <a href="http://onmytodd.org">Todd</a> - Assistance with implementing support for tags<br />
 * <a href="http://westoresolutions.com/">Mariano J. Ponce</a> - Spanish translation<br />
-* <a href="http://nakri.co.uk/">Nadia Tokerud</a> - Proof-reading of Norwegian Bokmål translation<br />
-* <a href="http://bjornjohansen.no/">Bjørn Johansen</a> - Proof-reading of Norwegian Bokmål translation<br />
-* <a href="http://www.jennybeaumont.com/>Jenny Beaumont</a> - French translation<br />
+* <a href="http://nakri.co.uk/">Nadia Tokerud</a> - Proof-reading of Norwegian Bokmål translation (coming soon)<br />
+* <a href="http://bjornjohansen.no/">Bjørn Johansen</a> - Proof-reading of Norwegian Bokmål translation (coming soon)<br />
+* <a href="https://www.facebook.com/kaljam/">Karl Olofsson</a> - Proof-reading of Swedish translation (coming soon)<br />
+* <a href="http://www.jennybeaumont.com/"">Jenny Beaumont</a> - French translation (coming soon)<br />
