@@ -3,9 +3,10 @@
 Plugin Name: Unique Headers
 Plugin URI: http://geek.ryanhellyer.net/products/unique-headers/
 Description: Unique Headers
-Version: 1.3.7
+Version: 1.3.8
 Author: Ryan Hellyer
 Author URI: http://geek.ryanhellyer.net/
+Text Domain: unique-headers
 
 ------------------------------------------------------------------------
 Copyright Ryan Hellyer

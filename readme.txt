@@ -3,7 +3,10 @@ Contributors: ryanhellyer
 Tags: custom-header, header, headers, image, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique, custom
 Donate link: https://geek.hellyer.kiwi/donate/
 Requires at least: 4.1
-Stable tag: 1.3.7
+Tested up to: 4.2
+Stable tag: 1.3.8
+Text Domain: unique-headers
+
 
 
 Adds the ability to use unique custom header images on individual pages, posts or categories or tags.
@@ -125,6 +128,7 @@ No, I'm too busy. Having said that, if you are willing to pay me a small fortune
 
 == Changelog ==
 
+Version 1.3.8: Modification translation system to work with changes on WordPress.org.<br />
 Version 1.3.7: Addition of Spanish translation<br />
 Version 1.3.1: Adjustment to match post meta key to other plugins, for compatibilty reasons.<br />
 Version 1.3: Total rewrite to use custom built in system for media uploads. Also adapted taxonomies to use ID's and added support for extra post-types and taxonomies.<br />
