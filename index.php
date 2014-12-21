@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Unique Headers
-Plugin URI: http://geek.ryanhellyer.net/products/unique-headers/
+Plugin URI: https://geek.hellyer.kiwi/products/unique-headers/
 Description: Unique Headers
-Version: 1.3.8
+Version: 1.3.9
 Author: Ryan Hellyer
-Author URI: http://geek.ryanhellyer.net/
+Author URI: https://geek.hellyer.kiwi/
 Text Domain: unique-headers
 
 ------------------------------------------------------------------------
