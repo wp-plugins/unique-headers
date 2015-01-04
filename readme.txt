@@ -4,8 +4,7 @@ Tags: custom-header, header, headers, image, header-image, header-images, taxono
 Donate link: https://geek.hellyer.kiwi/donate/
 Requires at least: 4.1
 Tested up to: 4.2
-Stable tag: 1.3.9
-Text Domain: unique-headers
+Stable tag: 1.3.10
 
 
 
@@ -24,6 +23,7 @@ You must use a theme which utilizes the built-in custom header functionality of 
 = Language support =
 The plugin includes translations for the following languages:
 1. Spanish - provided by <a href="http://westoresolutions.com/">Mariano J. Ponce</a>
+2. German - provided by <a href="http://www.graphicana.de/">Tobias Klotz</a>
 
 
 == Installation ==
@@ -128,6 +128,7 @@ No, I'm too busy. Having said that, if you are willing to pay me a small fortune
 
 == Changelog ==
 
+Version 1.3.10: Added Deutsch (German) language translation.
 Version 1.3.9: Fixing error which caused header images to disappear on upgrading (data was still available just not accessed correctly).<br />
 Version 1.3.8: Modification translation system to work with changes on WordPress.org.<br />
 Version 1.3.7: Addition of Spanish translation<br />
@@ -147,7 +148,9 @@ Version 1.0: Initial release<br />
 Thanks to the following for help with the development of this plugin:<br />
 * <a href="http://onmytodd.org">Todd</a> - Assistance with implementing support for tags<br />
 * <a href="http://westoresolutions.com/">Mariano J. Ponce</a> - Spanish translation<br />
-* <a href="http://nakri.co.uk/">Nadia Tokerud</a> - Proof-reading of Norwegian Bokmål translation (coming soon)<br />
+* <a href="http://www.graphicana.de/">Tobias Klotz</a> - Deutsch (German) language translation.
+* <a href="http://nakri.co.uk/">Nadia Tokerud</a> - Proof-reading of Norsk Bokmål (Norwegian) translation (coming soon)<br />
 * <a href="http://bjornjohansen.no/">Bjørn Johansen</a> - Proof-reading of Norwegian Bokmål translation (coming soon)<br />
 * <a href="https://www.facebook.com/kaljam/">Karl Olofsson</a> - Proof-reading of Swedish translation (coming soon)<br />
-* <a href="http://www.jennybeaumont.com/"">Jenny Beaumont</a> - French translation (coming soon)<br />
+* <a href="http://www.jennybeaumont.com/">Jenny Beaumont</a> - French translation (coming soon)<br />
+
