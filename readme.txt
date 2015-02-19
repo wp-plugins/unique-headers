@@ -1,6 +1,6 @@
 === Unique Headers ===
 Contributors: ryanhellyer
-Tags: custom-header, header, headers, image, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique, custom
+Tags: custom-header, header, headers, images, page, post, plugin, image, images, categories, gallery, media, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique, custom
 Donate link: https://geek.hellyer.kiwi/donate/
 Requires at least: 4.1
 Tested up to: 4.2
