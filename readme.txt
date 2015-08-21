@@ -2,9 +2,9 @@
 Contributors: ryanhellyer
 Tags: custom-header, header, headers, images, page, post, plugin, image, images, categories, gallery, media, header-image, header-images, taxonomy, tag, category, posts, pages, taxonomies, post, page, unique, custom
 Donate link: https://geek.hellyer.kiwi/donate/
-Requires at least: 4.1
-Tested up to: 4.3
-Stable tag: 1.3.12
+Requires at least: 4.3
+Tested up to: 4.5
+Stable tag: 1.3.13
 
 
 
@@ -26,6 +26,7 @@ The plugin includes translations for the following languages:
 1. Spanish - provided by <a href="http://westoresolutions.com/">Mariano J. Ponce</a>
 2. German - provided by <a href="http://www.graphicana.de/">Tobias Klotz</a>
 3. French - provided by <a href="http://www.jennybeaumont.com/">Jenny Beaumont</a>
+4. Swedish - provided by <a href="https://twitter.com/CyanAlice">Alice Carlsson</a>
 
 
 == Installation ==
